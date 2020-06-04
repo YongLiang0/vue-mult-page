@@ -1,0 +1,15 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets" : {
+                    "browsers" : ["> 1%", "ie >= 9", "chrome >= 60", "ios >= 9", "android >= 4.0", "last 2 versions"]
+                },
+                "corejs": 3,
+                "useBuiltIns": "usage",
+                "debug": false
+            }
+        ]
+    ]
+}
