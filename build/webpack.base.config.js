@@ -6,9 +6,9 @@ const webpack = require('webpack');
 const cleanWebpackPlugin = require("clean-webpack-plugin");
 const vueLoaderPlugin = require("vue-loader/lib/plugin");
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-// const serverHost = require('./serverHost');
+const getEnv = require('./env');
 
-module.exports =  function(env,port){
+module.exports =  function(env){
     let base_conf = {
         entry : utils.entries(),
         externals : {
@@ -72,7 +72,9 @@ module.exports =  function(env,port){
             }
         },
         plugins : [
-            // new webpack.DefinePlugin(serverHost(env)),
+            new webpack.DefinePlugin({
+                GLOBAL_ENV :JSON.stringify(getEnv(env))
+            }),
             new cleanWebpackPlugin(),
             new vueLoaderPlugin(),
             new CopyWebpackPlugin([
