@@ -59,24 +59,6 @@ class utils {
         }
         return rnd;
     }
-    
-    /**
-     * 获取url后面参数
-     */
-    static getQueryString(name,str) {
-		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
-		var search = window.location.search;
-		if(str){
-			search = "?" + str.split("?")[1];
-		}
-		var r = search.substr(1).match(reg);
-		var context = "";
-		if (r != null)
-			context = r[2];
-		reg = null;
-		r = null;
-		return context == null || context == "" || context == "undefined" ? "" : context;
-	}
 	
 	/**
 	 * 判断是否在微信浏览器内
