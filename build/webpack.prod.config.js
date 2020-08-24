@@ -15,7 +15,7 @@ module.exports = function (env) {
                     {
                         loader : miniCss.loader,
                         options : {
-                            publicPath : "../",
+                            publicPath : "/",
                         }
                     },
                     "css-loader",
