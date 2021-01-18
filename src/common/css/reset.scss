@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+html,body{
+    -webkit-touch-callout:none;
+	-webkit-text-size-adjust:none;
+	-webkit-tap-highlight-color:transparent;
+	-webkit-user-select:none;
+    -webkit-overflow-scrolling: touch
+}
+
+body{
+    font-family: "Microsoft YaHei",Arial,sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input,textarea{
+	-webkit-tap-highlight-color:transparent;
+    -webkit-appearance: none;
+    font-family: "Microsoft YaHei",Arial,sans-serif;
+    font-size: 14px;
+}
+
+input,textarea:focus{
+    outline: 0;
+}
+
+button:focus{
+    outline: 0;
+}
+
+img{
+    display: block;
+    width : 100%
+}
+
+article,aside,blockquote,body,button,code,dd,details,div,dl,dt,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,hr,input,legend,li,menu,nav,ol,p,pre,section,td,textarea,th,ul {
+    margin: 0;
+    padding: 0
+}
+
+li,ol,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+a img {
+    border: 0;
+}
+  
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
