@@ -1,4 +1,4 @@
-import getApi from '../config/func.js';
+import getApi from './func.js';
 
 const API = {
 
