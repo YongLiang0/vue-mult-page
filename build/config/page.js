@@ -4,5 +4,17 @@ module.exports = {
         js : [],
         css : [],
         fileName : ''
+    },
+    'music' : {
+        title : '首页',
+        js : [],
+        css : [],
+        fileName : ''
+    },
+    'radio' : {
+        title : '首页',
+        js : [],
+        css : [],
+        fileName : ''
     }
 }

@@ -1,0 +1,60 @@
+[
+    {
+        "title" : "官方歌单",
+        "list" : [
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/cYaYhFp8ibuYGrBhoWfchicDUon8TvtrAaV4prnxgPmhYJvlCheiaXXiaA/300?n=1",
+                "desc" : "超燃电音|我独自一人处高峰"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/77L3RXN1wOLhJn5sWFDs9XbPBx8Bu0sfnLfIePibTDaFWssboSicdufA/300?n=1",
+                "desc" : "《你好生活》第二季BGM合集"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/KRQvMx5lOfXH1J4EmNWw1Xg7iaicC7V9IVLibfib5C5TxOYv69Mj1H7iatw/300?n=1",
+                "desc" : "天官赐福 动画原声&amp;有声书"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/aL228icHlaKBwOycYS9L91Kg2yh9wFYtmoop5vEoUQjeBjiaSMq6FSJA/300?n=1",
+                "desc" : "控诉黑暗！说唱上帝Eminem"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/lEZBU31fW50oPhFUZTZGXjUXoWAwc8L5EgAUHiayRb9rwoZicPvFA4wQ/300?n=1",
+                "desc" : "『王者荣耀镜』五杀战歌一燃到底"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/sEcibDVZAOhCWdQXRSUwz8gyTZU01uDKUuOibrkg3LOkFD3ibhGAdEgkg/300?n=1",
+                "desc" : "欧美RAP | 酷guy嘻哈"
+            }
+        ]
+    },
+    {
+        "title" : "达人歌单",
+        "list" : [
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6q3fDiawWkhTTVWgGNM52HBNA/300?n=1",
+                "desc" : "欧美| 流行节奏控"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/xiabfMZAmQ0PYUzgCvOicArIoGLzqL3n6q4X4NiaWS01Fvtn063nqHY2Q/300?n=1",
+                "desc" : "欧美| 流行轻有氧"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/MKjEtF7diatibd6B0iaeF5KguYHTWhScOADLtR9xjUjEEz5uYMCCKOA9w/300?n=1",
+                "desc" : "最·陈奕迅"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/4pmnRu5sL5QbtO8OS8NKJU7UhBRvQcdookqiaqkurvWR8j7PKeyzcFA/300?n=1",
+                "desc" : "最·SUPER JUNIOR"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPoPSy3PBexF9zRK9veKIXuxw/300?n=1",
+                "desc" : "古典| 美妙心情"
+            },
+            {
+                "url" : "https://qpic.y.qq.com/music_cover/7vlTTvwBiaibKJpyXffTHicMpDXK5xPJiaPobp8KZDDeCVsjiaePJqnMzXA/300?n=1",
+                "desc" : "欧美| 情绪激活"
+            }
+        ]
+    }
+]

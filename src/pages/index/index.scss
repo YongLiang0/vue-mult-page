@@ -1,0 +1,70 @@
+@import '@/common/css/reset.scss';
+@import '@/common/css/mixin.scss';
+
+.page-index{
+    padding: 60px 3vw 3vw 3vw;
+
+    .nut-swiper{
+        height: auto;
+        border-radius: 6px;
+        overflow: hidden;
+
+        .swiper-pagination-bullet{
+            background-color: rgba(255,255,2555,0.8);
+            width: 6px;
+            height: 6px;
+
+            &.active{
+                background-color : #fff;
+            }
+        }
+    }
+
+    .songs{
+        .title{
+            padding: 12px 0;
+
+            h2{
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 30px;
+            }
+
+            .more{
+                height: 30px;
+                line-height: 30px;
+                font-weight: 300;
+                font-size: 13px;
+                color: #999;
+
+                i{
+                    color: #999;
+                }
+            }
+        }
+
+        .list{
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .item{
+                width: 30vw;
+                margin-bottom: 2vw;
+
+                img{
+                    border-radius: 3px;
+                }
+
+                p{
+                    padding-top: 8px;
+                    color: #999;
+                    font-weight: 300;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    
+
+}
