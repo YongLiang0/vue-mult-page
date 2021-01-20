@@ -8,6 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 // 页面配置文件
 const COMMON_CONFIG = require('./config/common.js');
 const PAGE_CONFIG = require('./config/page.js');
+const BUILD = require('./config/build.js');
 
 // 目录配置
 const CHUNK_SEP = '/';
@@ -103,6 +104,13 @@ exports.htmlWebpackPlugin = function(env){
     let entryFiles = _getEntryFiles();
 
     entryFiles.forEach((item) => {
+        if(BUILD.isUse){
+            let inf = BUILD.buildList.indexOf(item.chunkName);
+            if(inf < 0){
+                return;
+            }
+        }
+
         let config_page = PAGE_CONFIG[item.chunkName] || {};
         let fileName = config_page.fileName || item.chunkName; 
         let curentPageJs = config_page.js || [];
