@@ -23,11 +23,31 @@
                     更多 <nut-icon type="right" size="12px" color="#999"></nut-icon>
                 </div>
             </div>
-            <div class="list flex">
-                <div class="item" v-for="(songsItem, songsIndex) in item.list" :key="'s' + songsIndex">
-                    <img :src="songsItem.url"/>
-                    <p v-text="songsItem.desc"></p>
+            <div class="list">
+                <nut-scroller>
+                    <div slot="list" class="item" v-for="(songsItem, songsIndex) in item.list" :key="'s' + songsIndex">
+                        <img :src="songsItem.url"/>
+                        <p v-text="songsItem.desc"></p>
+                    </div>
+                </nut-scroller>
+            </div>
+        </section>
+
+        <!-- 专区 -->
+        <section class="songs">
+            <div class="title flex">
+                <h2>专区</h2>
+                <div class="more grow flex je ac">
+                    更多 <nut-icon type="right" size="12px" color="#999"></nut-icon>
                 </div>
+            </div>
+            <div class="list">
+                <nut-scroller>
+                    <div slot="list" class="item w6" v-for="(item, index) in songAreaList" :key="index">
+                        <img :src="item.url"/>
+                        <p v-text="item.desc"></p>
+                    </div>
+                </nut-scroller>
             </div>
         </section>
     </div>
@@ -47,7 +67,8 @@ export default {
     data(){
         return{
             bannerList : [],
-            songsList : []
+            songsList : [],
+            songAreaList : []
         }
     },
 
@@ -61,8 +82,10 @@ export default {
          * 初始化
          */
         init(){
+            this.$loading('加载中...');
             this.getBannerList();
             this.getSongsList();
+            this.getSongAreaList();
         },
         
         /**
@@ -82,8 +105,21 @@ export default {
             let res = await INTERFACE.getSongsList();
             if(res){
                 this.songsList = res || [];
+                this.$hideLoading();
             }
         },
+
+        /**
+         * 获取歌曲专区列表
+         */
+        async getSongAreaList(){
+            let res = await INTERFACE.getSongAreaList();
+            if(res){
+                this.songAreaList = res || [];
+                this.$hideLoading();
+            }
+        }
+
     }
 }
 </script>

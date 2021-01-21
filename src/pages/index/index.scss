@@ -44,12 +44,13 @@
         }
 
         .list{
-            flex-wrap: wrap;
-            justify-content: space-between;
-
             .item{
-                width: 30vw;
-                margin-bottom: 2vw;
+                width: 28vw;
+                margin-right: 2vw;
+
+                &.w6{
+                    width: 60vw;
+                }
 
                 img{
                     border-radius: 3px;

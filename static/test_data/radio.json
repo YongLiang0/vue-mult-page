@@ -1,0 +1,238 @@
+[
+    {
+        "label" : "热门",
+        "children" : [
+            {
+                "label" : "个性电台",
+                "desc" : "播放量：120万",
+                "cover" : "http://y.gtimg.cn/music/common/upload/t_musichall_pic/363459.jpg?max_age=2592000" 
+            },
+            {
+                "label" : "热歌",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_199_10_8.jpg?max_age=2592000",
+                "desc" : "播放量：282万"
+            },
+            {
+                "label" : "随心听",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_101_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：284.3万"
+                
+            },
+            {
+                "label" : "一人一首招牌歌",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_307_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：230.8万"
+            },
+            {
+                "label" : "KTV必点歌",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_270_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：246.8万"
+            },
+            {
+                "label" : "热门翻唱",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_567_10_2.jpg?max_age=2592000",
+                "desc" : "播放量：273.5万"
+            }
+        ]
+    },
+    {
+        "label" : "上午",
+        "children" : [
+            {
+                "label" : "好好工作",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_414_10_1.jpg?max_age=2592000",
+                "desc" : "播放量：19.5万"
+            },
+            {
+                "label" : "陪你看书",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_415_10_1.jpg?max_age=2592000",
+                "desc" : "播放量：9.2万"
+            },
+            {
+                "label" : "轻松一刻",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_418_10_1.jpg?max_age=2592000",
+                "desc" : "播放量：14.8万"
+            },
+            {
+                "label" : "满满正能量",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_421_10_1.jpg?max_age=2592000",
+                "desc" : "播放量：11.1万"
+            },
+            {
+                "label" : "来一杯咖啡",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_419_10_1.jpg?max_age=2592000",
+                "desc" : "播放量：7.2万"
+            }
+        ]
+    },
+    {
+        "label" : "心情",
+        "children" : [
+            {
+                "label" : "伤感",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_136_10_5.jpg?max_age=2592000",
+                "desc" : "播放量：113.6万"
+            },
+            {
+                "label" : "快乐",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_140_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：37万"
+            },
+            {
+                "label" : "安静",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_211_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：64.8万"
+            },
+            {
+                "label" : "寂寞",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_137_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：23.9万"
+            },
+            {
+                "label" : "疗伤",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_217_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：27.4万"
+            }
+        ]
+    },
+    {
+        "label" : "主题",
+        "children" : [
+            {
+                "label" : "热歌",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_199_10_8.jpg?max_age=2592000",
+                "desc" : "播放量：282万"
+            },
+            {
+                "label" : "情歌",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_550_10_2.jpg?max_age=2592000",
+                "desc" : "播放量：24万"
+            },
+            {
+                "label" : "影视原声",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_554_10_3.jpg?max_age=2592000",
+                "desc" : "播放量：23.3万"
+            },
+            {
+                "label" : "车载低音炮",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_347_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：159.5万"
+            },
+            {
+                "label" : "热门翻唱",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_567_10_2.jpg?max_age=2592000",
+                "desc" : "播放量：273.5万"
+            },
+            {
+                "label" : "DJ热碟",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_215_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：248万"
+            },
+            {
+                "label" : "LIVE现场",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_569_10_1.jpg?max_age=2592000",
+                "desc" : "播放量：1万"
+            },
+            {
+                "label" : "网络流行",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_167_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：168.7万"
+            }
+        ]
+    },
+    {
+        "label" : "场景",
+        "children" : [
+            {
+                "label" : "睡前",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_368_10_7.jpg?max_age=2592000",
+                "desc" : "播放量：42.6万"
+            },
+            {
+                "label" : "起床",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_322_10_6.jpg?max_age=2592000",
+                "desc" : "播放量：28万"
+            },
+            {
+                "label" : "旅行",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_192_10_7.jpg?max_age=2592000",
+                "desc" : "播放量：13.5万"
+            },
+            {
+                "label" : "夜店",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_335_10_7.jpg?max_age=2592000",
+                "desc" : "播放量：25.7万"
+            }
+        ]
+    },
+    {
+        "label" : "曲风",
+        "children" : [
+            {
+                "label" : "电子",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_134_10_5.jpg?max_age=2592000",
+                "desc" : "播放量：13.8万"
+            },
+            {
+                "label" : "流行",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_345_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：42.8万"
+            },
+            {
+                "label" : "古风",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_365_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：20万"
+            },
+            {
+                "label" : "民谣",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_346_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：18.5万"
+            },
+            {
+                "label" : "Hip-Hop",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_223_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：8.2万"
+            },
+            {
+                "label" : "R&amp;B",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_173_10_5.jpg?max_age=2592000",
+                "desc" : "播放量：7.6万"
+            },
+            {
+                "label" : "摇滚",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_130_10_4.jpg?max_age=2592000",
+                "desc" : "播放量：27.2万"
+            }
+        ]
+    },
+    {
+        "label" : "语言",
+        "children" : [
+            {
+                "label" : "英语",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_120_10_6.jpg?max_age=2592000",
+                "desc" : "播放量：62.6万"
+            },
+            {
+                "label" : "华语",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_118_10_7.jpg?max_age=2592000",
+                "desc" : "播放量：13.4万"
+            },
+            {
+                "label" : "粤语",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_119_10_6.jpg?max_age=2592000",
+                "desc" : "播放量：63.2万"
+            },
+            {
+                "label" : "韩语",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_150_10_7.jpg?max_age=2592000",
+                "desc" : "播放量：12.3万"
+            },
+            {
+                "label" : "日语",
+                "cover" : "//y.gtimg.cn/music/photo/radio/track_radio_149_10_7.jpg?max_age=2592000",
+                "desc" : "播放量：5.2万"
+            }
+        ]
+    }
+]

@@ -13,8 +13,12 @@ module.exports = {
     },
     'radio' : {
         title : '电台',
-        js : [],
-        css : [],
+        js : [
+            '//cdn.jsdelivr.net/npm/cube-ui@1.12.45/lib/cube.min.js'
+        ],
+        css : [
+            '//cdn.jsdelivr.net/npm/cube-ui@1.12.45/lib/cube.min.css'
+        ],
         fileName : ''
     }
 }

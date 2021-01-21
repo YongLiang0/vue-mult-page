@@ -2,5 +2,83 @@
 @import '@/common/css/mixin.scss';
 
 .page-radio{
-    padding: 60px 3vw 3vw 3vw;
+    position: absolute;
+    left: 0;
+    top: 54px;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+
+    .cube-sticky-fixed{
+        width: 26vw !important;
+
+        .cube-scroll-wrapper{
+            width: 100%;
+        }
+
+        .cube-scroll-nav-bar{
+            background-color: #fff;
+        }
+
+        .cube-scroll-nav-bar-item_active{
+            border-left: 3px solid $--color-primary;
+            color: $--color-primary;
+        }
+    }
+
+    .cube-sticky-ele{
+        height: 0 !important;
+        overflow: hidden;
+    }
+
+    .cube-scroll-nav-panel-title{
+        height: 0 !important;
+        overflow: hidden;
+    }
+
+    .panel-item{
+        padding: 0 4vw;
+
+        .title{
+            height: 40px;
+            overflow: hidden;
+
+            b{
+                display: block;
+                float: left;
+                width: 50px;
+                line-height: 20px;
+            }
+
+            span{
+                height: 1px;
+                display: block;
+                background-color: #ececec;
+                margin-top: 9px;
+                margin-left: 50px;
+            }
+        }
+
+        .list{
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .item{
+                width: 32vw;
+                margin-bottom: 3vw;
+
+                h3{
+                    font-size: 15px;
+                    padding-top: 10px;
+                }
+
+                p{
+                    font-size: 12px;
+                    font-weight: 300;
+                    color: #999;
+                    padding-top: 5px;
+                }
+            }
+        }
+    }
 }

@@ -17,6 +17,14 @@ const INTERFACE = {
         return get(API.API_GET_SONGS_LIST);
     },
 
+    /**
+     * 获取歌曲专区列表
+     */
+    getSongAreaList(){
+        return get(API.API_GET_SONG_AREA_LIST);
+    },
+
+    
 };
 
 export default INTERFACE;
