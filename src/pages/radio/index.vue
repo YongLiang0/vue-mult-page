@@ -1,7 +1,7 @@
 <template>
-    <div>
+    <div class="page">
         <Navbar></Navbar>
-        <div class="page-radio" v-if="loadingComplete">
+        <div class="body" v-if="loadingComplete">
             <cube-scroll-nav 
                 ref="scroll"
                 :side="true"

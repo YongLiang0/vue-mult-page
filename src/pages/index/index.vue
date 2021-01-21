@@ -1,55 +1,58 @@
 <template>
-    <div class="page-index">
-
+    <div class="page">
+        <!-- 导航 -->
         <Navbar></Navbar>
 
-        <!-- banner -->
-        <nut-swiper
-            direction="horizontal"
-            :swiperData="bannerList"
-            :autoPlay="3000"
-            :canDragging="false"
-            :paginationVisible="true">
-            <div class="nut-swiper-slide" v-for="(item,index) in bannerList" :key="index">
-                <img :src="item.url" />
-            </div>
-        </nut-swiper>
-
-        <!-- 歌单列表 -->
-        <section class="songs" v-for="(item,index) in songsList" :key="index">
-            <div class="title flex">
-                <h2 v-text="item.title"></h2>
-                <div class="more grow flex je ac">
-                    更多 <nut-icon type="right" size="12px" color="#999"></nut-icon>
+        <!-- 页面主体内容 -->
+        <div class="body scroll">
+            <!-- banner -->
+            <nut-swiper
+                direction="horizontal"
+                :swiperData="bannerList"
+                :autoPlay="3000"
+                :canDragging="false"
+                :paginationVisible="true">
+                <div class="nut-swiper-slide" v-for="(item,index) in bannerList" :key="index">
+                    <img :src="item.url" />
                 </div>
-            </div>
-            <div class="list">
-                <nut-scroller>
-                    <div slot="list" class="item" v-for="(songsItem, songsIndex) in item.list" :key="'s' + songsIndex">
-                        <img :src="songsItem.url"/>
-                        <p v-text="songsItem.desc"></p>
-                    </div>
-                </nut-scroller>
-            </div>
-        </section>
+            </nut-swiper>
 
-        <!-- 专区 -->
-        <section class="songs">
-            <div class="title flex">
-                <h2>专区</h2>
-                <div class="more grow flex je ac">
-                    更多 <nut-icon type="right" size="12px" color="#999"></nut-icon>
-                </div>
-            </div>
-            <div class="list">
-                <nut-scroller>
-                    <div slot="list" class="item w6" v-for="(item, index) in songAreaList" :key="index">
-                        <img :src="item.url"/>
-                        <p v-text="item.desc"></p>
+            <!-- 歌单列表 -->
+            <section class="songs" v-for="(item,index) in songsList" :key="index">
+                <div class="title flex">
+                    <h2 v-text="item.title"></h2>
+                    <div class="more grow flex je ac">
+                        更多 <nut-icon type="right" size="12px" color="#999"></nut-icon>
                     </div>
-                </nut-scroller>
-            </div>
-        </section>
+                </div>
+                <div class="list">
+                    <nut-scroller>
+                        <div slot="list" class="item" v-for="(songsItem, songsIndex) in item.list" :key="'s' + songsIndex">
+                            <img :src="songsItem.url"/>
+                            <p v-text="songsItem.desc"></p>
+                        </div>
+                    </nut-scroller>
+                </div>
+            </section>
+
+            <!-- 专区 -->
+            <section class="songs">
+                <div class="title flex">
+                    <h2>专区</h2>
+                    <div class="more grow flex je ac">
+                        更多 <nut-icon type="right" size="12px" color="#999"></nut-icon>
+                    </div>
+                </div>
+                <div class="list">
+                    <nut-scroller>
+                        <div slot="list" class="item w6" v-for="(item, index) in songAreaList" :key="index">
+                            <img :src="item.url"/>
+                            <p v-text="item.desc"></p>
+                        </div>
+                    </nut-scroller>
+                </div>
+            </section>
+        </div>
     </div>
 </template>
 

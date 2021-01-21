@@ -1,5 +1,21 @@
 $--color-primary : #31c27c;
 
+.page{
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+
+    .body{
+        flex: 1;
+        overflow: hidden;
+
+        &.scroll{
+            overflow: auto;
+        }
+    }
+}
+
 .flex{
     display: flex;
 
@@ -95,6 +111,40 @@ $--color-primary : #31c27c;
     -webkit-transform: scaleX(0.5);
     transform: scaleX(0.5);
 }
+
+.header-bar{
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+    padding: 0 3vw;
+
+    .item{
+        position: relative;
+        margin-right: 6vw;
+        font-size: 15px;
+        font-weight: normal;
+
+        .bar{
+            display: none;
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background-color: $--color-primary;
+            border-radius: 4px;
+        }
+
+        &.active{
+            font-size: 17px;
+            font-weight: 700;
+
+            .bar{
+                display: block;
+            }
+        }
+    }
+}   
 
 /**
 * 背景图片地址和大小

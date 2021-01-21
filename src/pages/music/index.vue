@@ -1,7 +1,7 @@
 <template>
-    <div class="page-music">
+    <div class="page">
         <Navbar></Navbar>
-        <div>音乐馆</div>
+        <div class="body">音乐馆</div>
     </div>
 </template>
 

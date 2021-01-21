@@ -1,12 +1,7 @@
 @import '@/common/css/reset.scss';
 @import '@/common/css/mixin.scss';
 
-.page-radio{
-    position: absolute;
-    left: 0;
-    top: 54px;
-    right: 0;
-    bottom: 0;
+.body{
     overflow: hidden;
 
     .cube-sticky-fixed{

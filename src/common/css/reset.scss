@@ -1,11 +1,13 @@
 @charset "utf-8";
 
 html,body{
+    position: relative;
     -webkit-touch-callout:none;
 	-webkit-text-size-adjust:none;
 	-webkit-tap-highlight-color:transparent;
 	-webkit-user-select:none;
-    -webkit-overflow-scrolling: touch
+    -webkit-overflow-scrolling: touch;
+    height: 100%;
 }
 
 body{
